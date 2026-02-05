@@ -10,10 +10,18 @@ const Navlinks = [
 ];
 export default function Header() {
   return (
-    <div className="hidden md:flex justify-center gap-13 items-center bg-emerald-200 font-bold font-mono">
-    
+  
+
+   <div className="container mx-auto  font-serif h-15 border-2 
+   flex justify-center items-center gap-15 bg-emerald-100 rounded-3xl w-300 z-1000">
+
+      <div classname= 'flex flex-col'>
+      <img src="./Logo.jpg" alt="" className='h-7 w-7'/>
+      <p>The Lapsi Tree</p>
+    </div>
       {Navlinks.map((el,index)=>(
-        <a href={el.url} key={index}>{el.title}</a>
+        <a href={el.url} key={index} className='text-2xl'
+        >{el.title}</a>
     )  )}
     </div>
     

@@ -1,16 +1,19 @@
 import { Outlet } from "react-router";
-import Header from "../Component/Header";
 
+import Header from "../Components/Header";
 
+import Footer from "../Components/Footer";
 
 export default function PublicLayout() {
   return (
     <>
       <Header />
+    
       <main>
         <Outlet />
       </main>
-     
+      
+      <Footer/>
     </>
   );
 }

@@ -1,12 +1,19 @@
 import React from 'react'
-import Header from './Components/Header'
-import Banner from './Components/banner'
+
+import Banner from '../Components/banner'
+import BookingBar from '../Components/BookingBar'
+import Welcome from '../Components/Welcome'
+import Hotelcard from '../Components/Hotelcard'
 
 export default function App() {
   return (
     <div>
-      <Header/>
+     
       <Banner/>
+      <BookingBar/>
+      <Welcome/>
+      <Hotelcard/>
+     
     </div>
   )
 }
