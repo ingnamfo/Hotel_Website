@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Banner from '../Components/banner'
+import Banner from '../Components/Banner'
 import BookingBar from '../Components/BookingBar'
 import Welcome from '../Components/Welcome'
 import Hotelcard from '../Components/Hotelcard'
